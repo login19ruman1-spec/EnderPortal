@@ -1,0 +1,14 @@
+name: EnderPortal
+version: 1.0.0
+main: ru.enderportal.EnderPortalPlugin
+api-version: '1.21'
+author: EnderPortal
+description: End portal awakening event for Purpur 1.21.4
+commands:
+  enderportal:
+    description: EnderPortal administration
+    usage: /enderportal
+    permission: enderportal.admin
+permissions:
+  enderportal.admin:
+    default: op

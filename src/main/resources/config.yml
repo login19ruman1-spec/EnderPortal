@@ -1,0 +1,39 @@
+portal:
+  activation-delay-seconds: 60
+  first-only: true
+  block-new-portals: true
+rift:
+  duration-seconds: 20
+  max-size: 40.0
+  growth-per-second: 2.0
+  height: 60.0
+earthquake:
+  enabled: true
+  radius: 0.0
+flash:
+  enabled: true
+  duration-seconds: 10
+  amplifier: 10
+corruption:
+  enabled: true
+  radius: 10.0
+  crater-diameter: 10.0
+  crater-depth: 5
+  trees: true
+  tree-count: 8
+  bad-effects:
+    weakness: true
+    slowness: true
+    mining-fatigue: true
+    darkness: true
+    poison: false
+curse:
+  enabled: true
+  pearl-fail-chance: 25
+  pearl-deviation-chance: 20
+  particles: true
+  cure-item: POISONOUS_POTATO
+purple-sky:
+  enabled: true
+  resource-pack-url: ""
+  resource-pack-sha1: ""
